@@ -1,0 +1,15 @@
+id = "make-ls"
+name = "Make LSP"
+description = "Makefile support powered by make-ls: hover, completion, go-to-definition, references, diagnostics, symbols, code actions and formatting."
+version = "0.1.0"
+schema_version = 1
+authors = ["horhik"]
+repository = "https://github.com/Horhik/zed-make-lsp"
+
+[language_servers.make-ls]
+name = "make-ls"
+languages = ["Make"]
+
+[grammars.make]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-make"
+commit = "5e9e8f8ff3387b0edcaa90f46ddf3629f4cfeb1d"
